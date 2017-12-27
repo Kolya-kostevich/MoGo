@@ -1,0 +1,472 @@
+/*plan work
+1.default options
+2.header
+3.aboutUs
+4.sectionNumbers
+5.sectionService
+*/
+
+
+
+
+
+/*1.default options*/
+
+
+body
+{
+	font-family: "arrial","sans-serif";
+}
+
+.container
+{
+	max-width: 1203px;
+	margin: 0 auto;
+}
+
+.header-menu::after,.wrapperPhotoAboutUs::after,.uniqDesigneSliderLine::after
+{
+	 content:'';
+	 display:block;
+	 clear: both;
+}
+
+
+/*2.header*/
+
+.bgHeader
+{
+background: url(../image/bg.jpg);
+ background-size: cover;
+}
+
+
+#logo
+{
+	float: left;
+    font-family: 'Liberation Sans', arial;
+    font-size: 32px;
+    font-weight: 800;
+    color:#fff;
+    position: relative;
+    bottom: 12px;
+}
+
+.header-menu
+{ 
+ padding-top: 40px;
+}
+
+.header-menu li a
+{
+ 	float: right;
+ 	margin-left: 56px;
+ 	font-family: 'Liberation Sans';
+ 	font-size: 14px;
+ 	color:#fff;
+ 	text-decoration: none;
+}
+.header-menu li a:hover
+{
+	color:#fbde8a;
+	display:line-block;
+	border-bottom: 3px solid #fbde8a;
+	padding-bottom: 12px;
+	transition:border 0.4s;
+}
+.header-menu li:first-child
+{
+	margin-left:0;
+}
+
+.bgHeaderCaption,.bgHeaderCaptionMini,.bgHeaderButton
+{
+	text-align: center;
+	 margin: 0 auto;
+	 display: block;
+}
+
+.bgHeaderCaptionMini
+{
+	 font-size: 72px;
+	 font-family: 'Kaushan Script', cursive;
+	 color: #fff;
+	 padding-top: 168px;
+}
+
+.bgHeaderCaption
+{
+	font-size: 150px;
+ 	font-family: 'Liberation Sans';
+    color: #fff;
+    font-weight: bold;
+    margin-top: 67px;
+}
+
+.bgHeaderButton
+{
+  width: 162px;
+  height: 39px;
+   background:none;
+  color: #fff;
+  border:3px solid #fff;
+  margin-top: 127px;
+  position: relative;
+}
+
+.bgHeaderButton::before
+{
+	height:4px;
+	width: 59px;
+	content: "";
+	position: absolute;
+	top: -65px;
+	left: 48px;
+	display:inline-block;
+	background: #fff;
+    
+}
+
+.sliderList
+{
+	margin-top: 155px;
+}
+
+.sliderListLi
+{
+	display: inline-block;
+	margin-left: 28.3px;
+	
+}
+
+.sliderListLi:first-child{
+	margin-left: 0;
+}
+.sliderListLine
+{
+	display:block;
+	color:#fff;
+	width: 275px;
+	height: 3px;
+	background-color: #fff;
+}
+
+.sliderListCover
+{
+	background-color: #f38181;
+	height: 100%;
+	width: 30%;
+	display: block;
+}
+
+.sliderListText
+{	
+font-family:'Liberation Sans';
+font-weight: bold;
+color:#fff;
+font-size: 18px;
+padding-top: 25px;
+padding-bottom: 29px;
+}
+
+
+
+.sliderListText span
+{
+  font-size: 24px;
+}
+
+
+
+/*3.aboutUs*/
+
+.aboutUs
+{
+	background: url(../image/band.png) center 200px no-repeat;
+	padding-bottom:111px;
+
+}
+
+.whatWeDo
+{
+	color:#333333;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 85px;
+}
+
+
+.storyAboutUs
+{
+	color:#333333;
+	font-family:'Liberation Sans';
+	font-size:30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 24px;
+
+}
+
+.aboutUsText
+{    
+	font-family: 'Roboto', sans-serif;
+	color: #b3b3b3;
+	font-size: 15px;
+	line-height: 17px;
+	word-spacing: 1px;
+	letter-spacing: 0px;
+	width: 959px;
+	margin: 0 auto;
+	margin-top: 91px;
+	text-align: center;
+}
+
+
+.wrapperPhotoAboutUs
+{
+	margin-top: 105px;
+}
+
+.AboutUsPhoto
+{
+	display: block;
+	float: left;
+	margin-left: 30px;
+    width: 380px;
+	height: 250px;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.AboutUsPhoto:first-child
+{
+ 	margin-left: 0;
+}
+
+.AboutUsPhoto:hover
+{
+	 box-shadow: 11px 10px 1px #95e1d3;
+	 top: -10px;
+     left: -11px;
+     transition: all 0.4s;
+
+}
+
+
+/*4.sectionNumbers*/
+
+
+.Numbers
+{    font-family:'Liberation Sans'; 
+	 background-color: #95e1d3;
+
+}
+
+
+
+.count
+{
+ max-width: 234px;
+ min-width: 234px;
+ height: 270px;
+ color: #fff;
+ text-align: center;
+ border-right: 1px solid #b5eae0;
+ display: inline-block;
+}
+
+.sectionNumber
+{   
+	font-size: 72px;
+	font-weight: bold;
+	padding-top: 88px;
+}
+
+.sectionText
+{   padding-top: 32px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.count:last-child
+{
+	border-right: none;
+}
+
+
+/*5.sectionService*/
+
+
+.service
+{
+	background: url(../image/band.png) center 221px no-repeat;
+	padding-bottom: 125px;
+
+
+}
+
+.serviceMiniCaption
+{
+	 font-family: 'Kaushan Script', cursive;
+	 text-align: center;
+	 color:#333333;
+	 font-size: 20px;
+	 padding-top: 112px;
+}
+
+
+.serviceCaption
+{
+	color:#333333;
+	font-family:'Liberation Sans';
+	font-size:30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+}
+
+
+
+.serviceCellCollection::before
+{
+	content:"";
+	display: block;
+	background-color: #e5e5e5;
+	height: 1px;
+	top: 225px;
+	left: 0;
+	position: relative;
+}
+
+
+.serviceCellBlock
+{
+	width: 280px;
+	height:70px;
+    padding-left: 63px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 102px;
+}
+
+
+.serviceCellBlock:nth-child(1)
+{
+	background:url(../img/ALARM.png)left top no-repeat;
+}
+
+.serviceCellBlock:nth-child(2)
+{
+	background:url(../img/BOOK.png)left top no-repeat;
+}
+
+.serviceCellBlock:nth-child(3)
+{
+	background:url(../img/COMPUTER.png)left top no-repeat;
+}
+
+.serviceCellBlock:nth-child(4)
+{
+	background:url(../img/HOME.png)left top no-repeat;
+}
+
+.serviceCellBlock:nth-child(5)
+{
+	background:url(../img/IMAGE.png)left top no-repeat;
+}
+
+.serviceCellBlock:nth-child(6)
+{
+	background:url(../img/LINE-GRAPH.png)left top no-repeat;
+}
+
+.serviceCellBlock:first-child,.serviceCellBlock:nth-child(4)
+{
+	margin-left: 0;
+}
+
+
+.serviceCellCaption
+{
+	font-size: 14px;
+	color:#333;
+	font-family:'Liberation Sans';
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.serviceCellParagraph
+{
+	padding-top: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color:#999;
+}
+
+
+
+/*6.uniqDesigne*/
+
+.uniqDesigne
+{
+	background: url("../image/uniqDesigne.png") no-repeat center;
+	display: block;
+	height: 955px;
+
+}
+
+.uniqDesigneMiniCaption
+{
+	 font-family: 'Kaushan Script', cursive;
+	 text-align: center;
+	 color:#333333;
+	 font-size: 20px;
+	 padding-top: 110px;
+
+}
+
+.uniqDesigneCaption
+{
+	
+	background: url(../image/band.png) center bottom no-repeat;
+	padding-bottom: 37px;
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-family:'Liberation Sans';
+	color:#333;
+	font-size:30px;
+	text-transform: uppercase;
+
+}
+
+/*
+.uniqDesigneSlider
+{
+	width: 425px;
+    height: 424px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top:46px;
+	border:2px solid #000;
+}
+
+.uniqDesigneSliderSlider1-Image
+{
+	float: left;
+}
+
+.uniqDesigneSliderLine
+{
+	width: 854px;
+}
+
+.uniqDesigneRadionButton
+{
+	text-align: center;
+}*/
